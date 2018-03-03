@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # 现在开始试着使用Python内置的函数（built-in functions)
 # 共计68个内置函数，参见[Python standard library]:https://docs.python.org/3/library/functions.html
 """
