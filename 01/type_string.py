@@ -1,5 +1,5 @@
 # 字符串
-
+import string as str_module
 print('JRT')
 print("JRT")  # 字符串来说，单引号和双引号没有区别
 print("I'm learning Python")  # 于是不通过麻烦的转义，可以在字符串中适度的使用引号
@@ -43,4 +43,29 @@ print("圆周率约等于%10.2f" % pi)  # %m.nf指定浮点数格式化的宽度
 print("余额:%10.2f元" % 30)  # 宽度5，右对齐
 print("余额:%-10.2f元" % 30)  # 宽度5，左对齐
 # 另一种格式化方法，模板字符串此处不予讨论
+
+# 下面简单看看字符串方法，这种东西不要想着背下来，知道有这种东西用到的时候会查就足够了
+# find()方法
+test = "Learn Python the hard way!"
+print(test.find('Python'))
+print(test.find('JRT'))
+
+# join(),split()方法
+sep = '\\'
+seq=['', 'windows', 'programe files']
+print('C'+sep.join(seq))
+seq = "/usr/local/sbin/".split('/')
+print(seq)
+
+# replace(),translate()
+print('This is a test'.replace('is', 'is not'))
+table = str.maketrans('abcdefghij', str_module.digits)
+print(type(str_module))
+print(str_module.ascii_lowercase)
+print(str_module.ascii_lowercase.translate(table))
+
+# 字符串就说到这里
+
+
+
 
