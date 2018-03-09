@@ -10,7 +10,7 @@
 这个文件了定义了换行格式字符编码。一般的代码编辑器都可以识别
 
 
-[GitHub用法](./blob/master/01/GithubTutorial.md)
+[GitHub用法](./01/GithubTutorial.md)
 
 ##### 关于比较常见的python 代码头部
 ```python
