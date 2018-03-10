@@ -91,18 +91,6 @@ print('随机弹出一项后：', phone_dict)
 # 是不是看到了希望呢？
 
 
-<<<<<<< HEAD
-strings = ['string0', 'string1', 'string2', 'string3']
-for string in strings:
-     print(string)
-
-
-=======
->>>>>>> 86b6a65dcfaa21a6f979f1c44487256c5d8f80c6
-
-
-
-
 
 
 
