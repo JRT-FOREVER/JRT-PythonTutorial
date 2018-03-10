@@ -29,7 +29,7 @@ print(phone_dict)
 # 依赖于字典的字符串格式化，之前说过了使用元组传入数据的字符串格式化
 print("**********************************formatted string*********************************")
 str_origin = "mdzz0:%(mdzz0)s\nmdzz1:%(mdzz1)s\nmdzz2:%(mdzz2)s"
-str_formate =str_origin % phone_dict
+str_formate = str_origin % phone_dict
 print(str_formate)
 
 template = '''\
