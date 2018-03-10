@@ -91,6 +91,11 @@ print('随机弹出一项后：', phone_dict)
 # 是不是看到了希望呢？
 
 
+strings = ['string0', 'string1', 'string2', 'string3']
+for string in strings:
+     print(string)
+
+
 
 
 
