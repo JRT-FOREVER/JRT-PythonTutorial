@@ -17,4 +17,3 @@ elif form == '/':
 elif form == '^' or '**':
     ans = x ** y
 print('答案为',ans)
-input()
