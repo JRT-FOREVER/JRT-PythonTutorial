@@ -71,6 +71,13 @@ https://github.com/longtian/gpg-howto
 
 # Github
 
+### 关于 watch, star, fork
+watch 是订阅这个仓库的信息。建议每个人都订阅JRT-PythonTutorial 和 JRT-discuss
+
+star 可以理解为收藏夹一类的东西
+
+fork 你如果想要对某一仓库提改善意见。但没有权限时。要先fork到自己的仓库提交，然后提Pull request。等待对方的merge
+
 ### 可以申请学生包哦！(学生包用途自己去挖掘)
 
 [https://education.github.com/](https://education.github.com/)
