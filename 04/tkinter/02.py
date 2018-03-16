@@ -2,7 +2,7 @@
 import tkinter as tk
 window = tk.Tk('My Window')
 window.geometry('700x500')
-entry = tk.Entry(show=None, width=30)  # 可以通过show=''来指定掩码
+entry = tk.Entry(window, show=None, width=30)  # 可以通过show=''来指定掩码
 entry.pack()
 
 
